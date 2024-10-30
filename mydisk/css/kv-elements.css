@@ -1,0 +1,48 @@
+/*
+*	MenuPopup
+*/
+.kd-popup-win,
+.popup-menu{
+	position:absolute;
+    background: #FFF;
+    padding: 1em;
+    border: 0px solid #000;
+    box-shadow: 0 0 10px #000, 0 0 0 0px rgb(110 110 110 / 70%);
+	border-radius: 5px;
+	
+	
+}
+.kd-popup-win{
+	top: 50%;
+    transform: translate(-50%, -50%);
+	left: 50%;
+	position:fixed;
+	z-index:1000
+}
+.kd-popup-win,
+.popup-menu:focus{
+	outline: none;
+}
+
+.popup-menu li{
+    list-style-position: inside;
+	list-style-type: none;
+    padding: 0.5em;
+	border-radius: 5px;
+
+}
+.popup-menu li:hover{
+	background:#AAEAFF;
+}
+.popup-menu a{
+	text-decoration: none;
+	display:block;
+	color:#000;
+	cursor:pointer;
+
+}
+.menu-menu-container div{
+	height:2px;
+	width:100%;
+	background:#DDD;
+}

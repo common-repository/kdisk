@@ -1,0 +1,403 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-kdisk\n"
+"POT-Creation-Date: 2021-12-02 13:00+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Myname <myemail@gmail.com>\n"
+"Language-Team: KDisk Team\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: include/class-kdisk-wp.php:136
+msgid "Directories"
+msgstr "Директории"
+
+#: include/class-kdisk-wp.php:136
+msgid "Access"
+msgstr "Доступ"
+
+#: include/class-kdisk-wp.php:136
+msgid "Limits"
+msgstr "Лимит"
+
+#: include/class-kdisk-wp.php:136
+msgid "Service"
+msgstr "Сервис"
+
+#: include/class-kdisk-wp.php:136
+msgid "Statistics"
+msgstr "Статистика"
+
+#: include/class-kdisk-wp.php:196
+msgid "KDisk Settings"
+msgstr "Настройки KDisk"
+
+#: include/class-kdisk-wp.php:250
+msgid "Temporary files"
+msgstr "Временные файлы"
+
+#: include/class-kdisk-wp.php:250 include/class-kdisk-wp.php:263
+msgid "Delete files created earlier than one day."
+msgstr "Удалить файлы, созданные ранее, чем за сутки."
+
+#: include/class-kdisk-wp.php:263
+msgid "Global trash"
+msgstr "Глобальная корзина"
+
+#: include/class-kdisk-wp.php:316
+msgid "Shared folder"
+msgstr "Общая папка"
+
+#: include/class-kdisk-wp.php:316
+msgid "Role"
+msgstr "Роль"
+
+#: include/class-kdisk-wp.php:316
+msgid "Read"
+msgstr "Чтение"
+
+#: include/class-kdisk-wp.php:316
+msgid "Write"
+msgstr "Запись"
+
+#: include/class-kdisk-wp.php:316 mydisk/include/class-kdisk-pages.php:443
+msgid "Delete"
+msgstr "Удаление"
+
+#: include/class-kdisk-wp.php:316 mydisk/include/class-kdisk-pages.php:375
+#: mydisk/include/class-kdisk-pages.php:446
+msgid "Trash"
+msgstr "Корзина"
+
+#: include/class-kdisk-wp.php:344
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: include/class-kdisk-wp.php:364
+msgid "Disk folders and URL"
+msgstr "Папки на диске и URL"
+
+#: include/class-kdisk-wp.php:369
+msgid ""
+"URL disk name. If you change this name, you must also change the `URL "
+"shortcut` on the` KDisk` page."
+msgstr ""
+"URL диска. Если Вы меняете это название, то необходимо поменять и  `Ярлык "
+"URL` на странице `KDisk`."
+
+#: include/class-kdisk-wp.php:371
+msgid "Disk url"
+msgstr "Url диска"
+
+#: include/class-kdisk-wp.php:376
+msgid ""
+"The name of the directories where user files are stored. (Located in the "
+"root of the site)"
+msgstr ""
+"Название каталога, в котором хранятся файлы пользователей. (Находится в "
+"корне сайта)"
+
+#: include/class-kdisk-wp.php:378
+msgid "File folder"
+msgstr "Папка файлов"
+
+#: include/class-kdisk-wp.php:382
+msgid "Limitations"
+msgstr "Ограничения"
+
+#: include/class-kdisk-wp.php:386
+msgid "Do not download files if free space is less than this value."
+msgstr "Не загружать файлы, если свободное пространство меньше этого значения."
+
+#: include/class-kdisk-wp.php:388
+msgid "Minimum size"
+msgstr "Минимальный размер"
+
+#: include/class-kdisk-wp.php:394
+msgid "Initial size of available space for a new user"
+msgstr "Первоначальный размер доступного пространства для нового пользователя"
+
+#: include/class-kdisk-wp.php:396
+msgid "Initial size"
+msgstr "Минимальный размер"
+
+#: include/class-kdisk-wp.php:401 include/class-kdisk-wp.php:403
+msgid "File upload method"
+msgstr "Метод загрузки файлов"
+
+#: include/class-kdisk-wp.php:406 include/class-kdisk-wp.php:410
+msgid "Views and downloads statistics"
+msgstr "Статистика просмотров и загрузок"
+
+#: include/class-kdisk-wp.php:412
+msgid "Enabled"
+msgstr "Включена"
+
+#: include/class-kdisk-wp.php:451
+msgid "block size"
+msgstr "размер блока"
+
+#: kdisk.php:94
+msgid "Options"
+msgstr "Опции"
+
+#: kdisk.php:94
+msgid "KDisk"
+msgstr "КДиск"
+
+#: kdisk.php:164
+msgid "Settings"
+msgstr "Настройки"
+
+#: kdisk.php:165
+msgid "My Drive"
+msgstr "Мой диск"
+
+#: kdisk.php:166
+msgid "Shared"
+msgstr "Общая папка"
+
+#: mydisk/class-kdisk-in-command.php:338
+msgid "File"
+msgstr "Файл"
+
+#: mydisk/class-kdisk-in-command.php:339
+msgid "Folder"
+msgstr "Папка"
+
+#: mydisk/class-kdisk-in-command.php:345 mydisk/class-kdisk-in-command.php:349
+msgid "Title"
+msgstr "Заголовок"
+
+#: mydisk/class-kdisk-in-command.php:346 mydisk/class-kdisk-in-command.php:350
+msgid "Name"
+msgstr "Имя"
+
+#: mydisk/class-kdisk-in-command.php:353
+#: mydisk/include/class-kdisk-pages.php:303
+msgid "Views"
+msgstr "Просмотров"
+
+#: mydisk/class-kdisk-in-command.php:355
+#: mydisk/include/class-kdisk-pages.php:303
+msgid "Downloaded"
+msgstr "Скачено"
+
+#: mydisk/class-kdisk-in-command.php:357
+msgid "Size"
+msgstr "Размер"
+
+#: mydisk/class-kdisk-in-command.php:357
+msgid "bytes"
+msgstr "байт"
+
+#: mydisk/class-kdisk-in-command.php:359
+msgid "Time"
+msgstr "Время"
+
+#: mydisk/class-kdisk-in-command.php:363 mydisk/class-kdisk-in-command.php:368
+msgid "Description"
+msgstr "Описание"
+
+#: mydisk/class-kdisk-in-command.php:372
+msgid "Ok"
+msgstr "Ok"
+
+#: mydisk/class-kdisk-in-command.php:436
+msgid "No free disk space."
+msgstr "Нет свободного дискового пространства."
+
+#: mydisk/class-kdisk-in-command.php:770
+msgid "Total file size"
+msgstr "Общий размер файлов"
+
+#: mydisk/class-kdisk-in-command.php:770
+msgid "Archive cannot exceed"
+msgstr "Архив не может превышать"
+
+#: mydisk/class-kdisk-in-command.php:774
+msgid "Download archive"
+msgstr "Скачать архивом"
+
+#: mydisk/class-kdisk-in-command.php:775
+msgid "Archiving process"
+msgstr "Процесс архивации"
+
+#: mydisk/include/class-kdisk-lang.php:9
+msgctxt "download file"
+msgid "Download"
+msgstr "Скачать"
+
+#: mydisk/include/class-kdisk-lang.php:10
+msgctxt "delete file"
+msgid "Delete"
+msgstr "Удалить"
+
+#: mydisk/include/class-kdisk-lang.php:11
+msgctxt "Copy URL"
+msgid "Copy URL"
+msgstr "Скопировать ссылку"
+
+#: mydisk/include/class-kdisk-lang.php:12
+msgctxt "Convert video"
+msgid "Convert video"
+msgstr "Конвертировать видео"
+
+#: mydisk/include/class-kdisk-lang.php:13
+msgctxt "Downloading"
+msgid "Downloading"
+msgstr "Скачивание"
+
+#: mydisk/include/class-kdisk-lang.php:14
+msgctxt "Convert video?"
+msgid "Convert video?"
+msgstr "Cконвертировать видео?"
+
+#: mydisk/include/class-kdisk-lang.php:15
+msgctxt "Trash"
+msgid "Empty Trash Permanently?"
+msgstr "Очистить корзину навсегда?"
+
+#: mydisk/include/class-kdisk-lang.php:16
+msgctxt "Trash"
+msgid "Delete permanently?"
+msgstr "Удалить навсегда?"
+
+#: mydisk/include/class-kdisk-lang.php:17
+msgctxt "Trash"
+msgid "Restore?"
+msgstr "Восстановить?"
+
+#: mydisk/include/class-kdisk-lang.php:18
+msgctxt "Trash"
+msgid "Restore"
+msgstr "Восстановить"
+
+#: mydisk/include/class-kdisk-lang.php:19
+msgctxt "Trash"
+msgid "Delete?"
+msgstr "Удалить?"
+
+#: mydisk/include/class-kdisk-lang.php:20
+msgid "New folder name"
+msgstr "Название новой папки"
+
+#: mydisk/include/class-kdisk-lang.php:21
+msgid "Name cannot exceed 32 characters"
+msgstr "Название не может быть длиннее 32 символов"
+
+#: mydisk/include/class-kdisk-lang.php:22
+msgid "Link copied to clipboard"
+msgstr "Ссылка скопирована в буфер обмена"
+
+#: mydisk/include/class-kdisk-lang.php:23
+msgid "Cancel"
+msgstr "Отмена"
+
+#: mydisk/include/class-kdisk-lang.php:24
+msgid "OK"
+msgstr "Создать"
+
+#: mydisk/include/class-kdisk-lang.php:25
+msgid "Properties"
+msgstr "Свойства"
+
+#: mydisk/include/class-kdisk-lang.php:26
+msgid "Yes"
+msgstr "Да"
+
+#: mydisk/include/class-kdisk-lang.php:27
+msgid "No"
+msgstr "Нет"
+
+#: mydisk/include/class-kdisk-lang.php:28
+msgid "Take audio track"
+msgstr "Извлечь звуковую дорожку"
+
+#: mydisk/include/class-kdisk-lang.php:29
+msgid "Combine video and audio"
+msgstr "Объединить видео и звук"
+
+#: mydisk/include/class-kdisk-pages.php:58
+#: mydisk/include/class-kdisk-pages.php:94
+#: mydisk/include/class-kdisk-pages.php:439
+msgid "Download"
+msgstr "Скачать"
+
+#: mydisk/include/class-kdisk-pages.php:95
+#: mydisk/include/class-kdisk-pages.php:351
+#: mydisk/include/class-kdisk-pages.php:449
+msgid "View Mode"
+msgstr "Режим просмотра"
+
+#: mydisk/include/class-kdisk-pages.php:348
+msgid "Recover"
+msgstr "Восстановить"
+
+#: mydisk/include/class-kdisk-pages.php:349
+msgid "Delete forever"
+msgstr "Удалить навсегда"
+
+#: mydisk/include/class-kdisk-pages.php:350
+msgid "Clear trash forever"
+msgstr "Очистить корзину навсегда"
+
+#: mydisk/include/class-kdisk-pages.php:363
+msgid "Free"
+msgstr "Свободно"
+
+#: mydisk/include/class-kdisk-pages.php:363
+#: mydisk/include/class-kdisk-pages.php:468
+msgid "from"
+msgstr "из"
+
+#: mydisk/include/class-kdisk-pages.php:372
+#: mydisk/include/class-kdisk-pages.php:473
+msgid "Disk"
+msgstr "Диск"
+
+#: mydisk/include/class-kdisk-pages.php:428
+msgid "Upload to cloud"
+msgstr "Загрузить в облако"
+
+#: mydisk/include/class-kdisk-pages.php:434
+msgid "Create a folder"
+msgstr "Создать папку"
+
+#: mydisk/include/class-kdisk-upload.php:115
+msgid "Error Checksum"
+msgstr "Ошибка контрольной суммы"
+
+#~ msgid "WP KDisk"
+#~ msgstr "КДиск"
+
+#~ msgid "Combine"
+#~ msgstr "Объединить"
+
+#~ msgid "Title1"
+#~ msgstr "Заголовок"
+
+#~ msgid "Clear"
+#~ msgstr "Очистить"
+
+#~ msgid "URL disk name."
+#~ msgstr "Url диска"
+
+#~ msgid ""
+#~ "Disc folder name. If this name is found in the site URL, the disk page is "
+#~ "opened."
+#~ msgstr "Название папки диска."
+
+#~ msgid "Директории"
+#~ msgstr "Dirs"

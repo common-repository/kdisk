@@ -1,0 +1,19 @@
+.kdisk-form-access .kdisk-form-shared-prop{
+	display:inline-block;
+}
+.kdisk-form-access .kdisk-form-shared-prop h2{
+	text-align:center;
+}
+.kdisk-form-access .kdisk-form-shared-prop tbody tr td:not(:first-child){
+	text-align:center;
+}
+.wrap form input[type=number]{
+	max-width:5em;
+}
+.wrap form input[type=text]{
+	max-width:10em;
+}
+.wrap .table-slug td{
+	padding:1em;
+	
+}
